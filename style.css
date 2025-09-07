@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #1e1e1e;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+#hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+}
+
+#hero span {
+    color: #ffcc00;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: #121212;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff9900;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.service-container,
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card,
+.portfolio-item {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.service-card i {
+    font-size: 3em;
+    color: #ffcc00;
+}
+
+.service-card:hover,
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+#contact input,
+#contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    height: 100px;
+}
+
+footer {
+    background: #1e1e1e;
+    padding: 15px;
+}
